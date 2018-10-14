@@ -1,0 +1,20 @@
+#box{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  border: solid;
+  top: 0;
+  left: 0;
+  /* position: absolute; */
+}
+#firstbox{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#container{
+  position: relative;
+}
