@@ -1,27 +1,3 @@
-// var firstbox=document.querySelector('#firstbox');
-// document.addEventListener('keypress',function(){
-//   // console.log(event.key);
-//   // console.log(box.style.top, box.style.left);
-//    var firstboxRect= firstbox.getBoundingClientRect();
-//   if(event.key == 'l' && (firstboxRect.x + firstboxRect.width <window.innerWidth)){
-//     console.log("gxgx");
-//     firstbox.style.left = (firstboxRect.x +20+'px');
-//
-//   }
-//   if(event.key == 'k' && (firstboxRect.y + firstboxRect.height <window.innerHeight)){
-//     firstbox.style.top = (firstboxRect.y +20 + 'px');
-//   }
-//   if(event.key == 'i' && firstboxRect.y>0){
-//     firstbox.style.top = (firstboxRect.y -20 + 'px');
-//   }
-//   if(event.key == 'j' && firstboxRect.x>0){
-//     firstbox.style.left = (firstboxRect.x -20 + 'px');
-//   }
-//
-// });
-
-// console.log(box.getBoundingClientRect().x); //gives x-coordinate of left edge
-// console.log(box.getBoundingClientRect().y); //gives y-coordinate of top edge
 
 var box=document.querySelector('#box');
 document.addEventListener('keypress',function(){
